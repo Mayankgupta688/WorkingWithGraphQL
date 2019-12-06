@@ -24,8 +24,6 @@ var schema = buildScheme(`
         GetTotalAccountNumber: Int
         SearchAccount(accountId: Int!): [Account]
         GetTotalBankNumber: Int
-        GetTotalBankNumberStartingWith(startLetter: String): [Bank]
-        GetDetailsForBankWithAccountCount: [BankDetails]
     }
 
     type BankDetails {
