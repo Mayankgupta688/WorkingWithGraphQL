@@ -1,0 +1,28 @@
+{
+  "name": "workingwithgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayankgupta688/WorkingWithGraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayankgupta688/WorkingWithGraphQL/issues"
+  },
+  "homepage": "https://github.com/Mayankgupta688/WorkingWithGraphQL#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1"
+  }
+}
