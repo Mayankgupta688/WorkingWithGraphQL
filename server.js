@@ -6,15 +6,7 @@ var accountList = require("./applicationData").accountList;
 
 var app = express();
 
-
-
-
-
-
-
 var schema = buildScheme(`
-
-
 
     type Query {
         GetBankList: [Bank]
